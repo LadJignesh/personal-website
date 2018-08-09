@@ -156,6 +156,15 @@ section{
 	.flex-container > div {
 		width: 45%;
 	}
+
+	.line-1{
+    font-size: 140%;
+}
+
+.topArrow {
+	bottom: 20%;
+}
+
 }
 @media (max-width: 576px) {
 
@@ -176,6 +185,14 @@ section{
 	.display-4{
 		font-size: 2rem;
 	}
+
+	.line-1{
+    font-size: 100%;
+}
+
+.topArrow {
+	bottom: 15%;
+}
 }
 
 
