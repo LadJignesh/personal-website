@@ -6,7 +6,7 @@ nav{
 }
 
 .navbar-brand{
-	padding-left: 3rem;
+	padding-left: .5rem;
 	color: white;
 	font-weight: bold;
 }
@@ -16,6 +16,11 @@ nav{
 	font-size: 1.2rem;
 }
 
+#brand-img{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
 
 .nav-link{
 	padding-right: 2rem;
@@ -148,6 +153,10 @@ section{
 	.flex-container > div {
 		width: 45%;
 	}
+
+	.topArrow {
+	bottom: 20%;
+}
 }
 @media (max-width: 768px) {
 	.flex-container{
