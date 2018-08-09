@@ -1,27 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400');
 
 
-
-#about{
-	background-image:url('../images/jignesh-bg.png');
-background-position:center;
-min-height: 650px;
-width: 100%;
-background-repeat: no-repeat;
+nav{
+	background-color: #f0c808;
 }
-
 
 .navbar-brand{
 	padding-left: 3rem;
+	color: white;
+	font-weight: bold;
 }
 
 .navbar-nav{
 	padding-right: 3rem;
 	font-size: 1.2rem;
 }
+
+
 .nav-link{
 	padding-right: 2rem;
 	margin-left: 2rem;
+	color: white;
+}
+
+a.nav-link.active{
+	background-color: #fff;
+	border-radius: 20px;
 }
 
 .menubar{
@@ -37,9 +41,19 @@ background-repeat: no-repeat;
 
 section{
 	padding-top: 4rem;
-	padding-bottom: 2rem;
+	padding-bottom: 4rem;
 	height: auto;
 	width: auto;
+}
+
+.topArrow {
+  fill: #fff;
+  transform: rotate(-90deg);
+  width: 45px;
+  height: 42px;
+  position: absolute;
+  bottom: 35%;
+  margin: 0 0 0 -22px;
 }
 
 .flex-container {
@@ -50,7 +64,7 @@ section{
 }
 
 .flex-container > div {
-	background-color: DodgerBlue;
+	background-color: #009ffd;
 	color: white;
 	width: 100px;
 	margin: 10px;
@@ -86,6 +100,44 @@ section{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
 }
+
+
+
+
+#resume{
+	background-color: #009ffd;
+}
+
+#btn-resume{
+	background-color: transparent;
+	border-radius: 0;
+	border:1px solid white;
+}
+
+#btn-resume:hover{
+	background-color: #086788;
+	border-radius: 0;
+	border:1px solid #F1F1F1;
+}
+
+#about{
+	min-height: 320px;
+	padding-top: 10em;
+	padding-bottom: 10em;
+	margin-top: 0;
+}
+
+
+#about {
+  background-size: 200%;
+  background-image: linear-gradient(to bottom left, #1b9aaa 0%, #f0c808 50%, #086788 100%);
+  transition: 600ms ease;
+}
+#about:hover {
+  background-position: 100% 0;
+}
+
+
 
 
 /*---Media Queries --*/
