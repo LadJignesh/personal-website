@@ -53,14 +53,20 @@ section{
 	width: auto;
 }
 
+.arrow-container {
+  width: 45px;
+  height: 45px;
+  margin: 30px auto;
+}
+
 .topArrow {
   fill: #fff;
   transform: rotate(-90deg);
   width: 45px;
   height: 42px;
   position: absolute;
-  bottom: 35%;
-  margin: 0 auto;
+  bottom: 20%;
+  margin: 0 0 0 -22px;
 }
 
 .flex-container {
