@@ -2,7 +2,7 @@
 
 
 nav{
-	background-color: #f0c808;
+	background-color: #1b9aaa;
 }
 
 .navbar-brand{
@@ -26,11 +26,13 @@ nav{
 	padding-right: 2rem;
 	margin-left: 2rem;
 	color: white;
+	text-align: right;
 }
 
 a.nav-link.active{
-	background-color: #fff;
-	border-radius: 20px;
+	border-bottom: 2px solid #fff;
+	background-color: transparent;
+	border-radius: 0;
 }
 
 .menubar{
@@ -58,7 +60,7 @@ section{
   height: 42px;
   position: absolute;
   bottom: 35%;
-  margin: 0 0 0 -22px;
+  margin: 0 auto;
 }
 
 .flex-container {
@@ -106,7 +108,25 @@ section{
   to{border-right-color: transparent;}
 }
 
+.proj-info{
+	font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: left;
+    padding: .7rem;
+}
 
+.load-more{
+	font-family: "Poppins", sans-serif;
+	color: #fff;
+	font-size: 1rem;
+	    float: left;
+    padding-left: 1rem;
+}
+
+.load-more:hover{
+	text-decoration: none;
+	color: #000;
+}
 
 
 #resume{
@@ -120,7 +140,7 @@ section{
 }
 
 #btn-resume:hover{
-	background-color: #086788;
+	background-color: #126b76;
 	border-radius: 0;
 	border:1px solid #F1F1F1;
 }
@@ -154,9 +174,7 @@ section{
 		width: 45%;
 	}
 
-	.topArrow {
-	bottom: 20%;
-}
+	
 }
 @media (max-width: 768px) {
 	.flex-container{
@@ -170,9 +188,7 @@ section{
     font-size: 140%;
 }
 
-.topArrow {
-	bottom: 20%;
-}
+
 
 }
 @media (max-width: 576px) {
@@ -199,9 +215,11 @@ section{
     font-size: 100%;
 }
 
-.topArrow {
-	bottom: 20%;
-}
+
+
+
+
+
 }
 
 
