@@ -17,7 +17,7 @@
 
 	<nav class="navbar navbar-expand-md navbar-light sticky-top menubar-shadow">
 		<div class="container-fluid menubar">
-			<img src="images/img_avatar.png" alt="Jignesh Lad" class="avatar" id="brand-img"> <a class="navbar-brand" href="#" style="color: #fff">JIGNESH LAD</a>
+			<img src="images/img_jignesh.png" alt="Jignesh Lad" class="avatar" id="brand-img"> <a class="navbar-brand" href="#" style="color: #fff">JIGNESH LAD</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -39,9 +39,10 @@
 		<p class="line-1 anim-typewriter">Developer | Self starter | Explorer</p>
 		<!--<img src="image/down-arrow.png" class="down-arrow">-->
 		<div class="arrow-container">
+			<a href="#resume">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 197.402 197.402" id="topArrow" class="topArrow">
 				<polygon style="fill:#000;" points="146.883,197.402 45.255,98.698 146.883,0 152.148,5.418 56.109,98.698 152.148,191.98"/>
-			</svg>
+			</svg></a>
 		</div>
 	</section>
 
@@ -119,6 +120,35 @@
 	      $('html, body').animate({
 	      	scrollTop: $(hash).offset().top
 	      }, 800, function(){
+	      	
+	        // Add hash (#) to URL when done scrolling (default click behavior)
+	        window.location.hash = hash;
+	    });
+	    }  // End if
+	});
+	});
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+	  // Add scrollspy to <body>
+	  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+	  // Add smooth scrolling on all links inside the navbar
+	  $(".arrow-container a").on('click', function(event) {
+	    // Make sure this.hash has a value before overriding default behavior
+	    if (this.hash !== "") {
+	      // Prevent default anchor click behavior
+	      event.preventDefault();
+
+	      // Store hash
+	      var hash = this.hash;
+
+	      // Using jQuery's animate() method to add smooth page scroll
+	      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+	      $('html, body').animate({
+	      	scrollTop: $(hash).offset().top
+	      }, 1200, function(){
 	      	
 	        // Add hash (#) to URL when done scrolling (default click behavior)
 	        window.location.hash = hash;
