@@ -10,6 +10,7 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="css/style.css" rel="stylesheet">
+	 <link rel="shortcut icon" href="images/favicon.ico"/> 
 </head>
 <body>
 
@@ -25,7 +26,7 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
 					<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-					<li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+					<!--<li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>-->
 					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 				</ul>
 			</div>
@@ -60,16 +61,189 @@
 	  		<div style="flex-grow: 3">3</div>
 	  	</div> -->
 	  	<div class="flex-container">
-	  		<div style="flex-grow: 3"><p class="proj-info">AHA Project (ADHD Augmented) (May - Aug 2018)</p><a class="load-more" href="#">Load More</a></div>
-	  		<div style="flex-grow: 4"><p class="proj-info">Virtual Stock Market Simulation (Sept-Dec 2017)</p><a class="load-more" href="#">Load More</a></div>
-	  		<div style="flex-grow: 3"><p class="proj-info">MedPlus (Sept-Dec 2017)</p><a class="load-more" href="#">Load More</a></div>
+	  		<div style="flex-grow: 3"><p class="proj-info">AHA Project (ADHD Augmented) (May - Aug 2018)</p><a href="#" class="load-more" data-toggle="modal" data-target="#proj-1">Load More</a></div>
+	  		<div style="flex-grow: 4"><p class="proj-info">Virtual Stock Market Simulation (Sept-Dec 2017)</p><a class="load-more" href="#" data-toggle="modal" data-target="#proj-2">Load More</a></div>
+	  		<div style="flex-grow: 3"><p class="proj-info">MedPlus (Sept-Dec 2017)</p><a class="load-more" href="#" data-toggle="modal" data-target="#proj-3">Load More</a></div>
 	  	</div>
 	  	<div class="flex-container">
-	  		<div style="flex-grow: 2"><p class="proj-info">IOT Communication Project (Sept-Dec 2017)</p><a class="load-more" href="#">Load More</a></div>
-	  		<div style="flex-grow: 4"><p class="proj-info">CoDraw - Generating Automated Executable Code from UML Models (2016-2017)</p><a class="load-more" href="#">Load More</a></div>
-	  		<div style="flex-grow: 4"><p class="proj-info">RTLS (Real Time Location System) (2014-2015)</p><a class="load-more" href="#">Load More</a></div>
+	  		<!--<div style="flex-grow: 2"><p class="proj-info">IOT Communication Project (Sept-Dec 2017)</p><a class="load-more" href="#" data-toggle="modal" data-target="#proj-4">Load More</a></div>-->
+	  		<div style="flex-grow: 6"><p class="proj-info">CoDraw - Generating Automated Executable Code from UML Models (2016-2017)</p><a class="load-more" href="#" data-toggle="modal" data-target="#proj-5">Load More</a></div>
+	  		<div style="flex-grow: 6"><p class="proj-info">RTLS (Real Time Location System) (2014-2015)</p><a class="load-more" href="#" data-toggle="modal" data-target="#proj-6">Load More</a></div>
 	  	</div>
 	  </section>
+
+
+	  <!-- The Modal -->
+			  <div class="modal fade" id="proj-1">
+			    <div class="modal-dialog modal-lg">
+			      <div class="modal-content">
+			      
+			        <!-- Modal Header -->
+			        <div class="modal-header">
+			          <h4 class="modal-title">AHA Project (ADHD Augmented) (May - Aug 2018)</h4>
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        </div>
+			        
+			        <!-- Modal body -->
+			        <div class="modal-body">
+			        	<ul>
+			        		<li>Dissertation for masters</li>
+			        		<li>Re-designed the UI of the project</li>
+							<li>Used symfony PHP framework</li>
+							<li>Used Git for version control</li>
+						</ul>
+						<strong>Technologies used: Symfony 2.7, PhpStorm, Git, MySQL</strong>
+
+			        </div>
+			        
+			        <!-- Modal footer -->
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        </div>
+			        
+			      </div>
+			    </div>
+			  </div>
+
+			  <!-- The Modal -->
+			  <div class="modal fade" id="proj-2">
+			    <div class="modal-dialog modal-lg">
+			      <div class="modal-content">
+			      
+			        <!-- Modal Header -->
+			        <div class="modal-header">
+			          <h4 class="modal-title">Virtual Stock Market Simulation (Sept-Dec 2017)</h4>
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        </div>
+			        
+			        <!-- Modal body -->
+			        <div class="modal-body">
+			        	<ul>
+			        		<li>This project was made as a part of Distributed System module for my masters studies where in I contributed as a software developer developing the Stock Market Module of the project.</li>
+			           <li>The project was made using Spring Eureka as a primary technology and Python Flask was used to design the Client user interface.</li>
+			       </ul>
+						<strong>Technologies used: Spring Eureka, Python Flask and MySql</strong>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+
+			  <!-- The Modal -->
+			  <div class="modal fade" id="proj-3">
+			    <div class="modal-dialog modal-lg">
+			      <div class="modal-content">
+			      
+			        <!-- Modal Header -->
+			        <div class="modal-header">
+			          <h4 class="modal-title">MedPlus (Sept-Dec 2017)</h4>
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        </div>
+			        
+			        <!-- Modal body -->
+			        <div class="modal-body">
+			        	<ul>
+			        		<li>MedPlus is a medicine reminder android application with a pharmacy and hospital locator feature integrated and was built as a part of module of my master studies.</li>
+			          		<li>Developed the pharmacy locator and hospital locator feature.</li>
+							<li>Designed forms for adding medicines.</li>
+							<li>Developed the alarm feature.</li>
+					</ul>
+			        </div>
+			        
+			        <!-- Modal footer 
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        </div>-->
+			        
+			      </div>
+			    </div>
+			  </div>
+
+			  <!-- The Modal -->
+			  <div class="modal fade" id="proj-4">
+			    <div class="modal-dialog modal-lg">
+			      <div class="modal-content">
+			      
+			        <!-- Modal Header -->
+			        <div class="modal-header">
+			          <h4 class="modal-title">IOT Communication Project (Sept-Dec 2017)</h4>
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        </div>
+			        
+			        <!-- Modal body -->
+			        <div class="modal-body">
+			          Modal body..
+			        </div>
+			        
+			        <!-- Modal footer -->
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        </div>
+			        
+			      </div>
+			    </div>
+			  </div>
+
+			  <!-- The Modal -->
+			  <div class="modal fade" id="proj-5">
+			    <div class="modal-dialog modal-lg">
+			      <div class="modal-content">
+			      
+			        <!-- Modal Header -->
+			        <div class="modal-header">
+			          <h4 class="modal-title">CoDraw - Generating Automated Executable Code from UML Models (2016-2017)</h4>
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        </div>
+			        
+			        <!-- Modal body -->
+			        <div class="modal-body">
+			          <ul>
+			          	<li>Generating Automated Java Code from UML models, Final Year Project</li>
+			          <li>We developed software where the user can draw UML diagrams and provide it as input and get java generated code as output. Class Diagram for structural code i.e. Java files and Activity Diagrams for behavioral code i.e. is internal code. Also a feature to convert java files to executable jar file was provided.</li>
+
+			          <li>Team lead for the project</li>
+			          <li>Developed the entire UI and functionality of the project</li>
+			      </ul>
+						<strong>Technologies used: C#, Visual Studio </strong>
+			        </div>
+			        
+			        <!-- Modal footer -->
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        </div>
+			        
+			      </div>
+			    </div>
+			  </div>
+
+			  <!-- The Modal -->
+			  <div class="modal fade" id="proj-6">
+			    <div class="modal-dialog modal-lg">
+			      <div class="modal-content">
+			      
+			        <!-- Modal Header -->
+			        <div class="modal-header">
+			          <h4 class="modal-title">RTLS (Real Time Location System) (2014-2015)</h4>
+			          <button type="button" class="close" data-dismiss="modal">&times;</button>
+			        </div>
+			        
+			        <!-- Modal body -->
+			        <div class="modal-body">
+			          <p>Real Time Location System (RTLS) is a prototype model supporting the hardware infrastructure based on radio frequency identification device. This project is deviced to interpret hexadecimal radio signals coming out of rfid through radio readers and antennas to study the unusual behavior carried out by the fishermen at sea-shore. The main objective of this project focuses on learning the suspicious behaviour from the login and logout incidents of the fishermen and tracking them for maintaining sinister activities like smuggling, terrorism and piracy. The software part of this project has been provided with their source code. It consist of two parts.
+
+Python based stand-alone system for interpreting and decoding hexadecimal signals and storing it into the database. This is done by using socket programming and tkinter based UI design.
+The second part of this project is the admin-panel developed in php. This system assist in analysing behavior through graphs and reports generated at the admin end.</p>
+
+<strong>Technologies : Python , web languages (PHP, bootstrap), Raspberry Pi</strong>
+			        </div>
+			        
+			        <!-- Modal footer -->
+			        <div class="modal-footer">
+			          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+			        </div>
+			        
+			      </div>
+			    </div>
+			  </div>
 
 
 	  <!--Contact section-->
@@ -79,7 +253,7 @@
 	  		<h4 class="display-6"><span style="border-bottom: 3px solid #f0c808; padding-bottom: .5rem;">Work with me!!</span></h4><br>
 	  		<h6>Email me @ <strong style="color: #fff">jigneshlad1995@gmail.com</strong></h6>
 	  		<br>
-	  		<a href="resume.html"><button class="btn btn-lg" id="btn-resume">Download Resume</button></a>
+	  		<a href="Jignesh_Lad.pdf" download><button class="btn btn-lg" id="btn-resume">Download Resume</button></a>
 	  	</div>
 	  </section>
 
